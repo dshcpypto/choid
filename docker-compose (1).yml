@@ -3,8 +3,8 @@ services:
   btsd-coid-adapter:
     image: "registry.supreme-team.tech/coid-adapter-backend"
     volumes:
-      - /certs/rsa.p12:/certs/rsa.p12
-      - /certs/1ec.pfx:/certs/1ec.pfx
+      - /certs/rsa.p12:/certs/rsa.p12:z
+      - /certs/1ec.pfx:/certs/1ec.pfx:z
     environment:
        COID_URL: https://online.kisc.kz:443/
       # nosec-prevline
