@@ -1,12 +1,12 @@
 version: "3"
 services:
   btsd-coid-adapter:
-    image: "registry.supreme-team.tech/coid-adapter-backend"
+    image: "NAME_IMAGE_REPO"
     volumes:
       - /certs/rsa.p12:/certs/rsa.p12:z
       - /certs/1ec.pfx:/certs/1ec.pfx:z
     environment:
-       COID_URL: https://online.kisc.kz:443/
+       COID_URL: COID_ADRESS_URL
       # nosec-prevline
        COID_RSA_CERTIFICATE: /certs/rsa.p12
        COID_RSA_CERTIFICATE_PASSWORD: YOUR_PASSWORD
