@@ -1,5 +1,5 @@
 # choid
-This container shows an example of deploying a container with a biometrics provider
+This container shows an example of deploying a container with a biometrics provider BTC
 System docker for CentOS7
 The directory with the keys is located in the root of the docker \coid keys are located \coid\certs
 
